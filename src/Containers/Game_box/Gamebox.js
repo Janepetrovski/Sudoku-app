@@ -7,105 +7,112 @@ import Game_buttons from "../../Components/game_buttons/game_buttons";
 
 class Gamebox extends Component {
   state = {
+    /*
+    v property in one cell object displays the value shown in the interface.
+    h property displays the cells that in the same row, column and square as the clicked cell in relevant color, if it is set to true.
+    a property displays the currently clicked single cell by the user in the apprriate color if it set to true.
+    r property displays the approarate cells in red when the rules of the sudoku are broken.
+
+    */
     game_grid: [
       [
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 1, h: false, а: false, r: false, b: false },
-        { v: 2, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 3, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 1, h: false, а: false, r: false },
+        { v: 2, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 3, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
       ],
       [
-        { v: 1, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 2, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 4, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 5, h: false, а: false, r: false, b: false },
+        { v: 1, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 2, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 4, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 5, h: false, а: false, r: false },
       ],
       [
-        { v: 6, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 7, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 8, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 2, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
+        { v: 6, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 7, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 8, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 2, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
       ],
       [
-        { v: 5, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 6, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
+        { v: 5, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 6, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
       ],
       [
-        { v: 2, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 8, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 4, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 7, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 9, h: false, а: false, r: false, b: false },
+        { v: 2, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 8, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 4, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 7, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 9, h: false, а: false, r: false },
       ],
       [
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 9, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 1, h: false, а: false, r: false, b: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 9, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 1, h: false, а: false, r: false },
       ],
       [
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 9, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 3, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 8, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 2, h: false, а: false, r: false, b: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 9, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 3, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 8, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 2, h: false, а: false, r: false },
       ],
       [
-        { v: 8, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 7, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 4, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 6, h: false, а: false, r: false, b: false },
+        { v: 8, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 7, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 4, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 6, h: false, а: false, r: false },
       ],
       [
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 2, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: 5, h: false, а: false, r: false, b: false },
-        { v: 1, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
-        { v: null, h: false, а: false, r: false, b: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 2, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: 5, h: false, а: false, r: false },
+        { v: 1, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
+        { v: null, h: false, а: false, r: false },
       ],
     ],
 
@@ -120,6 +127,7 @@ class Gamebox extends Component {
     error_cells: [],
   };
 
+  //function to lock the initial sudoku generated values, so the user cant make any changes to them.
   componentDidMount() {
     let newState = this.state;
     for (let i = 0; i < 9; i++) {
@@ -132,7 +140,7 @@ class Gamebox extends Component {
 
     this.setState({ state: newState });
   }
-
+  //function to mark the cells red in the visual interface  when the sudoku rules are broken.
   check_for_errors = (index_r, index_c) => {
     let newGrid = this.state.game_grid;
     let clicked_cell = newGrid[index_r][index_c];
@@ -167,7 +175,7 @@ class Gamebox extends Component {
     }
     return return_arr;
   };
-
+  //function which checks whether the currently clicked cell is allowed to be changed by the user.
   check_if_locked = (index_a, index_b) => {
     let temp_arr = [index_a, index_b];
 
@@ -185,7 +193,7 @@ class Gamebox extends Component {
     }
     return s;
   };
-
+  //function that is called when the Undo button is clicked, and reverts the Gamebox state
   undo = () => {
     let newState = this.state;
 
@@ -207,6 +215,7 @@ class Gamebox extends Component {
       return;
     }
   };
+  //function that is called when the Erase button is clicked, and it erases the value in the currently clicked cell.
   erase = () => {
     let locked;
     let newGrid = this.state.game_grid;
@@ -224,7 +233,7 @@ class Gamebox extends Component {
       this.setState({ game_grid: newGrid });
     }
   };
-
+  //fucnton which resets all the highlited cells
   reset_board = () => {
     let newState = this.state;
 
@@ -266,7 +275,7 @@ class Gamebox extends Component {
     }
     this.setState({ game_grid: newGrid });
   };
-
+  //function that changes the v value in
   insert_digit = (data) => {
     let newState = this.state;
     let locked;
