@@ -1,0 +1,15 @@
+.number_pad_table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding-top: 2rem;
+}
+
+.game_controls {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 28rem;
+  width: 22rem;
+}

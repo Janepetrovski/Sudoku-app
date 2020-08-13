@@ -1,0 +1,31 @@
+.middle_div {
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.game_div {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1600px) {
+  .middle_div {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .middle_div {
+    width: 100%;
+  }
+}

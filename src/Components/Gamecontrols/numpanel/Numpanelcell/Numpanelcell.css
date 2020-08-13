@@ -1,0 +1,23 @@
+.numcell {
+  padding: 2.4rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-top: 0.1rem solid rgb(187, 187, 187);
+  border-left: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-weight: 600;
+  color: #27496d;
+  cursor: pointer;
+}
+.numcell:hover {
+  background-color: #d8e7ec;
+  transition: 0.1s;
+}
+
+.numcell_digit {
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

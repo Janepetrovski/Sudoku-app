@@ -1,0 +1,5 @@
+.cell_row_num {
+    display: flex;
+    width: 100%;
+    height: auto;
+}

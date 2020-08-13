@@ -1,0 +1,22 @@
+.game_btn {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  border: 0.1rem solid rgb(187, 187, 187);
+  border-radius: 2px;
+  padding: 1rem 1.7rem 0.1rem 1.7rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+img {
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.btn_text {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(17, 25, 29);
+}

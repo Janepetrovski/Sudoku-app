@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap");
+
+.cell {
+  height: 3.8rem;
+  width: 3.8rem;
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  border-left: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell:hover {
+  background-color: #d8e7ec;
+  transition: 0.2s;
+}
+
+.cell_r_border {
+  height: 3.8rem;
+  width: 3.8rem;
+  border-right: 0.15rem solid black;
+  border-left: 0.1rem solid rgb(187, 187, 187);
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_r_border:hover {
+  background-color: #d8e7ec;
+  transition: 0.2s;
+}
+
+.cell_l_border {
+  height: 3.8rem;
+  width: 3.8rem;
+  border-left: 0.15rem solid black;
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_l_border:hover {
+  background-color: #d8e7ec;
+  transition: 0.2s;
+}
+
+.cell_a {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  border-left: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #a8d8ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_r_border_a {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-right: 0.15rem solid black;
+  border-left: 0.1rem solid rgb(187, 187, 187);
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #a8d8ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_l_border_a {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-left: 0.15rem solid black;
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #a8d8ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_h {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  border-left: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #eaeef1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_r_border_h {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-right: 0.15rem solid black;
+  border-left: 0.1rem solid rgb(187, 187, 187);
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #eaeef1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_l_border_h {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-left: 0.15rem solid black;
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #eaeef1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_r {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  border-left: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #fe146d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #ffd0e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_r_border_r {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-right: 0.15rem solid black;
+  border-left: 0.1rem solid rgb(187, 187, 187);
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #fe146d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #ffd0e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_l_border_r {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-left: 0.15rem solid black;
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #fe146d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #ffd0e2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_b {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  border-left: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #a8d8ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_r_border_b {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-right: 0.15rem solid black;
+  border-left: 0.1rem solid rgb(187, 187, 187);
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #a8d8ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell_l_border_b {
+  transition: 0.2s;
+  height: 3.8rem;
+  width: 3.8rem;
+  border-left: 0.15rem solid black;
+  border-bottom: 0.1rem solid rgb(187, 187, 187);
+  font-size: 40px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 500;
+  color: #172a3d;
+  box-sizing: border-box;
+  cursor: pointer;
+  background-color: #a8d8ea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

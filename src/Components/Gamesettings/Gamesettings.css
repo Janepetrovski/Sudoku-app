@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+.div_settings {
+  width: 540px;
+  align-self: center;
+  height: 4.5rem;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  font-size: 18px;
+  margin-right: 16rem;
+  font-style: "Source Sans Pro", sans-serif;
+}
+
+.diff {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  font-style: "Source Sans Pro", sans-serif;
+}
+
+.difficulty {
+  font-weight: 600;
+  font-size: 18px;
+  margin-top: 18px;
+  color: rgb(37, 37, 37);
+  font-style: "Source Sans Pro", sans-serif;
+}
+
+.arrow_up {
+  border: solid #94a3b7;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  cursor: pointer;
+  color: #94a3b7;
+  font-size: 18px;
+}
+
+.arrow_down {
+  border: solid #94a3b7;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  cursor: pointer;
+  color: #94a3b7;
+  font-size: 18px;
+  font-style: "Source Sans Pro", sans-serif;
+}
+.display_diff {
+  cursor: pointer;
+  color: #94a3b7;
+  font-weight: 600;
+  font-size: 18px;
+  font-style: "Source Sans Pro", sans-serif;
+}
+
+.dropdown_diff_act {
+  background-color: white;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 50px;
+  height: 140px;
+  width: 100px;
+  border: 0.5px solid #c8c7c7;
+  border-radius: 10px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.item {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.item:hover {
+  background-color: #dbe2ef;
+}
+
+.dropdown_diff_hid {
+  background-color: gray;
+  position: absolute;
+  margin-left: 80px;
+  margin-top: 50px;
+  height: 140px;
+  width: 100px;
+  border: 0.5px solid #eaeaea;
+  border-radius: 10px;
+  z-index: 1;
+  display: none;
+}
+
+.timer {
+  color: #8b959c;
+  font-weight: 600;
+  margin-top: 17px;
+  font-size: 18px;
+}
+
+.slider {
+  margin-top: 17px;
+  color: #8b959c;
+  font-weight: 600;
+  font-size: 18px;
+}

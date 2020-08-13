@@ -1,0 +1,17 @@
+.nav {
+    width: 60%;
+    height: 50px;
+    display: flex;
+    justify-items: flex-start;
+    margin:auto;
+    padding: 15px 0px  0px  0px;
+
+}
+
+.h1_class{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #3d84a8;
+    font-weight: 600;
+
+}

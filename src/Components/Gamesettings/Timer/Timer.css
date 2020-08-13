@@ -1,0 +1,52 @@
+.timer {
+  display: flex;
+  width: 17%;
+  justify-content: space-between;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #94a3b7;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.timer_img {
+  margin-top: 8px;
+  width: 25px;
+  height: 25px;
+  align-self: center;
+  justify-self: center;
+}
+
+.playpause label {
+  display: block;
+  box-sizing: border-box;
+  width: 0;
+  height: 14px;
+  border-color: transparent transparent transparent #94a3b7;
+  transition: 100ms all ease;
+  cursor: pointer;
+  border-style: double;
+  border-width: 0px 0 0px 12px;
+}
+.playpause input[type="checkbox"] {
+  visibility: hidden;
+}
+.playpause input[type="checkbox"]:checked + label {
+  border-style: solid;
+  border-width: 8px 0 8px 15px;
+}
+.playpause {
+  border: 1px solid #94a3b7;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  position: relative;
+  background-color: white;
+}
+label {
+  position: absolute;
+  left: 9px;
+  top: 8px;
+}

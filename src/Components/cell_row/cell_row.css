@@ -1,0 +1,22 @@
+.cell_row{
+    display: flex;
+    flex-direction: row;
+    width: 540px;
+   
+}
+
+.bottom-box{
+    display: flex;
+    flex-direction: row;
+    width: 540px;
+    border-bottom: 0.15rem solid black;
+    
+}
+
+.top-box{
+    display: flex;
+    flex-direction: row;
+    width: 540px;
+    border-top: 0.15rem solid black;
+  
+}

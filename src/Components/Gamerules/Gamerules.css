@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500&family=Roboto+Condensed&display=swap");
+
+.Div_rules_container {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-evenly;
+  padding-top: 5%;
+  font-family: "Open Sans", sans-serif;
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: #0f4c75;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+p {
+  color: #1b262c;
+  font-size: 1rem;
+}
+.Div_rules_1 {
+  display: flex;
+  justify-content: space-between;
+}
+.rules_Play_1 {
+  width: 47%;
+}
+.rules_About_1 {
+  width: 47%;
+}
+.list_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 170px;
+  background-color: #e8f1f5;
+}
+li {
+  margin: 15px 0 15px 0;
+}
+@media (max-width: 1600px) {
+  .Div_rules_container {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .Div_rules_container {
+    width: 100%;
+  }
+}
