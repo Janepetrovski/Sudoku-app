@@ -2,6 +2,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@500&family=Roboto+Condensed&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
 .Div_rules_container {
   width: 60%;
   margin: auto;
@@ -10,27 +12,33 @@
   align-content: space-between;
   justify-content: space-evenly;
   padding-top: 5%;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 h2 {
   font-family: "Poppins", sans-serif;
-  color: #0f4c75;
+  color: rgb(52, 72, 97);
   font-weight: 600;
   font-size: 1.5rem;
 }
 p {
   color: #1b262c;
   font-size: 1rem;
+  line-height: 25px;
 }
 .Div_rules_1 {
   display: flex;
   justify-content: space-between;
+  font-family: "Source Sans Pro", sans-serif;
 }
 .rules_Play_1 {
   width: 47%;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 25px;
 }
 .rules_About_1 {
   width: 47%;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 25px;
 }
 .list_div {
   display: flex;
@@ -38,9 +46,13 @@ p {
   justify-content: space-evenly;
   height: 170px;
   background-color: #e8f1f5;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 25px;
 }
 li {
   margin: 15px 0 15px 0;
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 25px;
 }
 @media (max-width: 1600px) {
   .Div_rules_container {

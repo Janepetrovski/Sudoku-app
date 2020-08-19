@@ -1,6 +1,5 @@
 import React from "react";
 import "./cell.css";
-import cx from "classnames";
 
 const Cell = (props) => {
   let css_name = 0;

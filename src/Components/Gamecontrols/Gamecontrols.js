@@ -22,7 +22,7 @@ const Gamecontrols = (props) => {
               insert={props.insert}
               key={index}
               el={el}
-              index={index}
+              index_i={index}
             ></Numpanel>
           );
         })}

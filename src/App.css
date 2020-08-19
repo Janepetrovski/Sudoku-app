@@ -11,3 +11,11 @@
   height: 1px;
   background-color: #dfdbdb;
 }
+
+.hr_div {
+  height: 1px;
+  background-color: rgb(233, 232, 232);
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+}

@@ -12,7 +12,8 @@ const Numpanel = (props) => {
             insert={props.insert}
             key={i}
             num={element}
-            index={i}
+            index_j={i}
+            index_i={props.index_i}
           ></Numpanelcell>
         );
       })}

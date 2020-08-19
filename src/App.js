@@ -9,7 +9,6 @@ function App() {
   return (
     <div className="App">
       <Navbar></Navbar>
-      <hr className="hr_class"></hr>
       <Gamebox></Gamebox>
       <Gamerules></Gamerules>
       <Footer></Footer>

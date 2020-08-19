@@ -2,11 +2,13 @@
   padding: 2.4rem;
   height: 1.5rem;
   width: 1.5rem;
-  border-top: 0.1rem solid rgb(187, 187, 187);
-  border-left: 0.1rem solid rgb(187, 187, 187);
-  font-size: 40px;
-  font-weight: 600;
-  color: #27496d;
+  border-top: 1px solid rgb(187, 187, 187);
+  border-left: 1px solid rgb(187, 187, 187);
+  border-bottom: 1px solid rgb(187, 187, 187);
+  border-right: 1px solid rgb(187, 187, 187);
+  font-size: 45px;
+  font-weight: 500;
+  color: #344861;
   cursor: pointer;
 }
 .numcell:hover {

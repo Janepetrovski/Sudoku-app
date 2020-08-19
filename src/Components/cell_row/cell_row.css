@@ -1,22 +1,19 @@
-.cell_row{
-    display: flex;
-    flex-direction: row;
-    width: 540px;
-   
+.cell_row {
+  display: flex;
+  flex-direction: row;
+  width: 510px;
 }
 
-.bottom-box{
-    display: flex;
-    flex-direction: row;
-    width: 540px;
-    border-bottom: 0.15rem solid black;
-    
+.bottom-box {
+  display: flex;
+  flex-direction: row;
+  width: 510px;
+  border-bottom: 0.15rem solid rgb(52, 72, 97);
 }
 
-.top-box{
-    display: flex;
-    flex-direction: row;
-    width: 540px;
-    border-top: 0.15rem solid black;
-  
+.top-box {
+  display: flex;
+  flex-direction: row;
+  width: 510px;
+  border-top: 0.15rem solid rgb(52, 72, 97);
 }
